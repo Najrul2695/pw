@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#b4bdbc
+}
+header{
+    padding: 15px 0;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    padding: 15px;
+    font-size: 25px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+nav ul li{
+    font-weight: 600;
+    cursor: pointer;
+    color: darkblue;
+}
+.search-field{
+    display: flex;
+   gap: 10px;
+   justify-content: space-between;
+}
+input{
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 2px solid blue;
+
+}
+button{
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+button:hover{
+    background-color: aqua;
+    font-weight: 600;
+}
+.main-left{
+    padding: 100px;
+}
+.main-left h1{
+    color:crimson;
+    font-size: 40px;
+    width: 300px;
+}
+
+span{
+    background-color: aquamarine;
+    color: blue;
+}
+.main-left p{
+    display: flexS;
+    width: 400px;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+}
+.main-right{
+    
+    text-align: center;
+    /* justify-content: space-around; */
+}
+img{
+    display: flex;
+    height: 250px;
+    width: 200px;
+    
+   
+}
+.main-right button{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+
+
+footer {
+   width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+footer p{
+    font-weight: 600;
+    font-size: 25px;
+    color: blue;
+}
+
+
+
+
